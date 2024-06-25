@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chat with ai</title>
+</head>
+<body dir="rtl">
+    <!-- start if no messages -->
+    <!-- <div class="new-chat">
+        <div class="no-message">
+            <img src="./assets/imgs/ai.png" alt="">
+            <h1>أسأل الذكاء الاصطناعي</h1>
+        </div>
+    </div> -->
+    <!-- end if no messages -->
+    <!-- start chat input filled -->
+    <div class="input-chat">
+        <textarea placeholder="اكتب رسالتك هنا" autofocus autocomplete="off"></textarea>
+        <button>
+            <img src="./assets/imgs/mingcute_send-fill.svg" alt="">
+        </button>
+    </div>
+    <!-- end chat input filled -->
+    <!-- start chat messages -->
+    <div class="chat-messages">
+        <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message-receive">
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+         <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message-receive">
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+         <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message-receive">
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+         <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message-receive">
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+        </div>
+        <!-- end message -->
+        <!-- start message -->
+        <div class="message">
+            <div class="avatar">
+                <img src="./assets/imgs/ai.png" alt="">
+            </div>
+            <div class="content">
+                <p>مرحباً</p>
+            </div>
+            <div class="message-time">
+                <span>12:00</span>
+            </div>
+        </div>
+        <!-- end message -->
+    </div>
+     <!-- start chat messages -->
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const textarea = document.querySelector('.input-chat textarea');
+
+        textarea.addEventListener('input', function () {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+    });
+</script>
+</html>
