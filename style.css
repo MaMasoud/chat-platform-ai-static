@@ -19,13 +19,12 @@ body {
 .new-chat {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 .new-chat .no-message {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 30%;
   align-items: center;
   width: 70%;
 }
@@ -92,6 +91,10 @@ body {
 }
 .input-chat textarea::-webkit-scrollbar {
   width: 5px;
+}
+.input-chat textarea::-webkit-scrollbar-track {
+  background-color: #262F44;
+  border-radius: 10px;
 }
 .input-chat:has(textarea:focus) {
   border-color: #2E6FF4;
@@ -182,4 +185,11 @@ body {
   border-radius: 10px;
   word-wrap: break-word;
   font-size: 0.8rem;
+}
+.chat-messages::-webkit-scrollbar {
+  width: 5px;
+}
+.chat-messages::-webkit-scrollbar-track {
+  background-color: none;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
