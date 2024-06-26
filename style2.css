@@ -10,7 +10,7 @@
 }
 body {
   font-family: "Noto", sans-serif;
-  background-color: #13182B;
+  background-color: #EEF4FA;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -55,7 +55,7 @@ body {
   transform: scale3d(1.1, 1.1, 1.1);
 }
 .new-chat .no-message h1 {
-  color: #F6F8FC;
+  color: #262F44;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
@@ -64,11 +64,11 @@ body {
   position: fixed;
   bottom: 5%;
   left: 5%;
-  background-color: #262F44;
+  background-color: #F6F8FC;
   min-height: 42px;
   z-index: 1000;
   border-radius: 30px;
-  border: 1px solid #58647C;
+  border: 1px solid #89BAF8;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -82,16 +82,12 @@ body {
   height: 24px;
   border: none;
   outline: none;
-  background-color: #262F44;
+  background-color: #F6F8FC;
   padding: 0 10px;
   border-radius: 20px;
   font-size: 1rem;
-  overflow-y: auto;
+  overflow-y: scroll;
   resize: none;
-  color: #F6F8FC;
-}
-.input-chat textarea::-webkit-scrollbar {
-  width: 5px;
 }
 .input-chat:has(textarea:focus) {
   border-color: #2E6FF4;
@@ -125,7 +121,7 @@ body {
   left: 5%;
   width: 90%;
   bottom: calc(5% + 42px + 20px);
-  background-color: none;
+  background-color: #F6F8FC;
   border-radius: 20px;
   border: 1px solid #89BAF8;
   overflow-y: auto;
@@ -143,7 +139,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: none;
+  background-color: #EEF4FA;
   display: flex;
   justify-content: center;
   align-items: center;
